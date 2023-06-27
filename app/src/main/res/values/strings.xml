@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MacP\'s Animal Deterrent</string>
+    <string name="animal_dog">Dog</string>
+    <string name="animal_cat">Cat</string>
+    <string name="animal_bear">Bear</string>
+    <string name="animal_coyote">Coyote</string>
+    <string name="animal_worlf">Wolf</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="status_playing">Playing...</string>
+</resources>

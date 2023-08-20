@@ -3,9 +3,12 @@
     <string name="animal_dog">Dog</string>
     <string name="animal_cat">Cat</string>
     <string name="animal_bear">Bear</string>
+    <string name="animal_wolf">Wolf</string>
     <string name="animal_coyote">Coyote</string>
-    <string name="animal_worlf">Wolf</string>
     <string name="button_start">Start</string>
     <string name="button_stop">Stop</string>
-    <string name="status_playing">Playing...</string>
+    <string name="status_playing">Playing&#8230;</string>
+    <string name="language_english">English</string>
+    <string name="language_french">French</string>
+    <string name="animal_raccoon">Raccoon</string>
 </resources>

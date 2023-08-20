@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     public void radioButtonWolf_onClick(View view){
         _frequency = _animalFrequencies.wolf;
     }
+    public void radioButtonRaccoon_onClick(View view) { _frequency = _animalFrequencies.raccoon; }
 
     @Override
     public void onDestroy() {

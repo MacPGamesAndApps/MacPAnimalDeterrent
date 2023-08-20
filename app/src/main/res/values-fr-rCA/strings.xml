@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dissuasif pour Animaux de MacP</string>
+    <string name="animal_dog">Chien</string>
+    <string name="button_stop">Arrêt</string>
+    <string name="animal_cat">Chat</string>
+    <string name="animal_bear">Ours</string>
+    <string name="animal_coyote">Coyote</string>
+    <string name="animal_wolf">Loup</string>
+    <string name="button_start">Commence</string>
+    <string name="status_playing">En cours&#8230;</string>
+    <string name="language_english">Anglais</string>
+    <string name="language_french">Français</string>
+    <string name="animal_raccoon">Raton Laveur</string>
+</resources>

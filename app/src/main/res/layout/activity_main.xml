@@ -5,12 +5,14 @@
     android:id="@+id/outerVerticalLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
         android:baselineAligned="false"
         android:onClick="buttonStart_onClick"
         android:text="@string/button_start"
@@ -25,6 +27,7 @@
         android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red_macp"
         android:onClick="buttonStop_onClick"
         android:text="@string/button_stop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +38,8 @@
         app:layout_constraintVertical_bias="0.332" />
 
     <RadioGroup
-        android:layout_width="129dp"
-        android:layout_height="279dp"
+        android:layout_width="133dp"
+        android:layout_height="299dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.248"
@@ -48,35 +51,68 @@
             android:id="@+id/radioButtonDog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:onClick="radioButtonDog_onClick"
-            android:text="@string/animal_dog" />
+            android:text="@string/animal_dog"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonCat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:onClick="radioButtonCat_onClick"
-            android:text="@string/animal_cat" />
+            android:text="@string/animal_cat"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonBear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:onClick="radioButtonBear_onClick"
-            android:text="@string/animal_bear" />
+            android:text="@string/animal_bear"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonCoyote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:onClick="radioButtonCoyote_onClick"
-            android:text="@string/animal_coyote" />
+            android:text="@string/animal_coyote"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonWolf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:onClick="radioButtonWolf_onClick"
-            android:text="@string/animal_worlf" />
+            android:text="@string/animal_wolf"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRaccoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:onClick="radioButtonRaccoon_onClick"
+            android:text="@string/animal_raccoon"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
